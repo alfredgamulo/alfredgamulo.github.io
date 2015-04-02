@@ -1,0 +1,39 @@
+title:            My Blag
+description:      herping the derps with style
+#disqus_shortname: shortname
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url:              //alfredgamulo.github.io
+
+# Owner/author information
+owner:
+  name:           Alfred Gamulo
+  avatar:         headshot.png
+  bio:            "I like beer and bbq. Occasionally, I'll write some code."
+  email:          alfred.gamulo@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  #twitter:          
+  #facebook:       
+  #github:         
+  #stackexchange:  
+  #linkedin:       
+  #instagram:      
+  #flickr:         
+  #tumblr:         
+  # google plus id, include the '+', eg +mmistakes
+  #google_plus:    +yourid
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+#bing_verify:         
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:     America/New_York
+future:       true
+highlighter:  pygments
+markdown:     kramdown
+
+# Amount of posts to show on home page
+paginate: 5
