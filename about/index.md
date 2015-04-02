@@ -11,7 +11,7 @@ modified: 2015-03-02
 
 # About me
 
-Hey, I'm Alfred. My job is to write software and occasionally I'll post stuff here about what I'm dealing with and quick fixes. I try to use this blog as a tool for me to keep track of the lessons I've learned and if you get something out of it then that's great.
+Hey, I'm Alfred. My job is to write software and occasionally I'll post stuff here about what I'm dealing with and quick fixes. I try to use this blog as a tool for me to keep track of the lessons I've learned and if you get something out of it then that's great. Perhaps one day this blog will be referenced by one of the nerds over at Stack Overflow.
 
 ### PGP Key
 ~~~~
