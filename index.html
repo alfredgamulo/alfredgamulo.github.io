@@ -38,6 +38,22 @@ image:
     {{ post.content }}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
+{% if forloop.first %}
+<article class="hentry">
+  <div class="entry-content">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Responsive Filler -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2015500069191112"
+         data-ad-slot="7830035025"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+{% endif %}
 {% endfor %}
 
 <div class="pagination">
