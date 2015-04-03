@@ -1,6 +1,6 @@
 title:            My Blag
 description:      herping the derps with style
-#disqus_shortname: shortname
+disqus_shortname: alfredgamulo
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 url:              //alfredgamulo.github.io
