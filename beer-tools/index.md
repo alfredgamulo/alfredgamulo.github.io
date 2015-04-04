@@ -45,89 +45,130 @@ function calculate()
 
 
 	var total = 0;
+	var weight = 0;
 
+	if(malt1.value!=""){
+		total+= 30 * parseInt(malt1.value) / 5.5;
+		weight+=parseInt(malt1.value);
+	}
+	if(malt2.value!=""){
+		total+= 28 * parseInt(malt2.value) / 5.5;
+		weight+=parseInt(malt2.value);
+	}
+	if(malt3.value!=""){
+		total+= 30 * parseInt(malt3.value) / 5.5;
+		weight+=parseInt(malt3.value);
+	}
+	if(malt4.value!=""){
+		total+= 28 * parseInt(malt4.value) / 5.5;
+		weight+=parseInt(malt4.value);
+	}
+	if(malt5.value!=""){
+		total+= 28 * parseInt(malt5.value) / 5.5;
+		weight+=parseInt(malt5.value);
+	}
+	if(malt6.value!=""){
+		total+= 28 * parseInt(malt6.value) / 5.5;
+		weight+=parseInt(malt6.value);
+	}
+	if(malt7.value!=""){
+		total+= 26 * parseInt(malt7.value) / 5.5;
+		weight+=parseInt(malt7.value);
+	}
+	if(malt8.value!=""){
+		total+= 26 * parseInt(malt8.value) / 5.5;
+		weight+=parseInt(malt8.value);
+	}
+	if(malt9.value!=""){
+		total+= 28 * parseInt(malt9.value) / 5.5;
+		weight+=parseInt(malt9.value);
+	}
+	if(malt10.value!=""){
+		total+= 27 * parseInt(malt10.value) / 5.5;
+		weight+=parseInt(malt10.value);
+	}
+	if(malt11.value!=""){
+		total+= 27 * parseInt(malt11.value) / 5.5;
+		weight+=parseInt(malt11.value);
+	}
+	if(malt12.value!=""){
+		total+= 26 * parseInt(malt12.value) / 5.5;
+		weight+=parseInt(malt12.value);
+	}
+	if(malt13.value!=""){
+		total+= 25 * parseInt(malt13.value) / 5.5;
+		weight+=parseInt(malt13.value);
+	}
+	if(malt14.value!=""){
+		total+= 22 * parseInt(malt14.value) / 5.5;
+		weight+=parseInt(malt14.value);
+	}
+	if(malt15.value!=""){
+		total+= 20 * parseInt(malt15.value) / 5.5;
+		weight+=parseInt(malt15.value);
+	}
+	if(malt16.value!=""){
+		total+= 20 * parseInt(malt16.value) / 5.5;
+		weight+=parseInt(malt16.value);
+	}
+	if(malt17.value!=""){
+		total+= 30 * parseInt(malt17.value) / 5.5;
+		weight+=parseInt(malt17.value);
+	}
+	if(malt18.value!=""){
+		total+= 23 * parseInt(malt18.value) / 5.5;
+		weight+=parseInt(malt18.value);
+	}
+	if(malt19.value!=""){
+		total+= 26 * parseInt(malt19.value) / 5.5;
+		weight+=parseInt(malt19.value);
+	}
+	if(malt20.value!=""){
+		total+= 31 * parseInt(malt20.value) / 5.5;
+		weight+=parseInt(malt20.value);
+	}
+	if(malt21.value!=""){
+		total+= 26 * parseInt(malt21.value) / 5.5;
+		weight+=parseInt(malt21.value);
+	}
+	if(malt22.value!=""){
+		total+= 29 * parseInt(malt22.value) / 5.5;
+		weight+=parseInt(malt22.value);
+	}
+	if(malt23.value!=""){
+		total+= 30 * parseInt(malt23.value) / 5.5;
+		weight+=parseInt(malt23.value);
+	}
+	if(malt24.value!=""){
+		total+= 32 * parseInt(malt24.value) / 5.5;
+		weight+=parseInt(malt24.value);
+	}
+	if(malt25.value!=""){
+		total+= 37 * parseInt(malt25.value) / 5.5;
+		weight+=parseInt(malt25.value);
+	}
 
-if(malt1.value!=""){
-	total+= 30 * parseInt(malt1.value) / 5.5;
-}
-if(malt2.value!=""){
-	total+= 28 * parseInt(malt2.value) / 5.5;
-}
-if(malt3.value!=""){
-	total+= 30 * parseInt(malt3.value) / 5.5;
-}
-if(malt4.value!=""){
-	total+= 28 * parseInt(malt4.value) / 5.5;
-}
-if(malt5.value!=""){
-	total+= 28 * parseInt(malt5.value) / 5.5;
-}
-if(malt6.value!=""){
-	total+= 28 * parseInt(malt6.value) / 5.5;
-}
-if(malt7.value!=""){
-	total+= 26 * parseInt(malt7.value) / 5.5;
-}
-if(malt8.value!=""){
-	total+= 26 * parseInt(malt8.value) / 5.5;
-}
-if(malt9.value!=""){
-	total+= 28 * parseInt(malt9.value) / 5.5;
-}
-if(malt10.value!=""){
-	total+= 27 * parseInt(malt10.value) / 5.5;
-}
-if(malt11.value!=""){
-	total+= 27 * parseInt(malt11.value) / 5.5;
-}
-if(malt12.value!=""){
-	total+= 26 * parseInt(malt12.value) / 5.5;
-}
-if(malt13.value!=""){
-	total+= 25 * parseInt(malt13.value) / 5.5;
-}
-if(malt14.value!=""){
-	total+= 22 * parseInt(malt14.value) / 5.5;
-}
-if(malt15.value!=""){
-	total+= 20 * parseInt(malt15.value) / 5.5;
-}
-if(malt16.value!=""){
-	total+= 20 * parseInt(malt16.value) / 5.5;
-}
-if(malt17.value!=""){
-	total+= 30 * parseInt(malt17.value) / 5.5;
-}
-if(malt18.value!=""){
-	total+= 23 * parseInt(malt18.value) / 5.5;
-}
-if(malt19.value!=""){
-	total+= 26 * parseInt(malt19.value) / 5.5;
-}
-if(malt20.value!=""){
-	total+= 31 * parseInt(malt20.value) / 5.5;
-}
-if(malt21.value!=""){
-	total+= 26 * parseInt(malt21.value) / 5.5;
-}
-if(malt22.value!=""){
-	total+= 29 * parseInt(malt22.value) / 5.5;
-}
-if(malt23.value!=""){
-	total+= 30 * parseInt(malt23.value) / 5.5;
-}
-if(malt24.value!=""){
-	total+= 32 * parseInt(malt24.value) / 5.5;
-}
-if(malt25.value!=""){
-	total+= 37 * parseInt(malt25.value) / 5.5;
-}
+	console.log(weight);
 
+	var total = (1+(total/1000));
+	console.log(total);
 
-var total = (1+(total/1000));
-console.log(total);
-beercalculator.elements["OG"].value=total.toFixed(3);
+	beercalculator.elements["OG"].value=total.toFixed(3);
 
+	var water = 1.25*weight;
+	console.log(water);
+
+	beercalculator.elements["Water"].value=water.toFixed(3);
+
+	var gtemp = beercalculator.elements["GTemp"];
+	var ttemp = beercalculator.elements["TTemp"];
+	if(gtemp.value!="" && ttemp!=""){
+		ttemp = parseInt(ttemp.value);
+		gtemp = parseInt(gtemp.value);
+		var stemp=(0.2/1.25)*(ttemp - gtemp)+ttemp;
+		console.log(stemp);
+		beercalculator.elements["Temp"].value=stemp.toFixed(3);
+	}
 
 }
 </script>
@@ -162,8 +203,11 @@ beercalculator.elements["OG"].value=total.toFixed(3);
 |Malto - Dextrin Powder | 40 | 32 | <input type="number" name="malt24" id="malt24" onchange="calculate()" /> |
 |Sugar (Corn, Cane) | 46 | 37 | <input type="number" name="malt25" id="malt25" onchange="calculate()" /> |
 |====
-|Lovibond| ||<input type="text" name="Lovibond"> |
-|Original Gravity   | ||<input type="number" name="OG" id="OG"> |
+|Original Gravity   | ||<input type="number" name="OG" id="OG" /> |
+|Water for mash in quarts   | ||<input type="number" name="Water" id="Water" /> |
+|Target Temperature in F   | ||<input type="number" name="TTemp" id="TTemp" onchange="calculate()" /> |
+|Grain Temperature in F   | ||<input type="number" name="GTemp" id="GTemp" onchange="calculate()" /> |
+|Strike Temperature in F   | ||<input type="number" name="Temp" id="Temp" /> |
 {: rules="groups"}
 
 </form>
