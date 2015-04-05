@@ -17,6 +17,8 @@ Calculator using table of typical malt yields[^1]
 <script>
 function calculate()
 {
+	var vol = beercalculator.elements["Vol"];
+
 	var malt1 = beercalculator.elements["malt1"];
 	var malt2 = beercalculator.elements["malt2"];
 	var malt3 = beercalculator.elements["malt3"];
@@ -47,104 +49,110 @@ function calculate()
 	var total = 0;
 	var weight = 0;
 
+	if(vol.value!=""){
+		vol = parseFloat(vol.value);
+	} else {
+		vol = 5.5;
+	}
+
 	if(malt1.value!=""){
-		total+= 30 * parseFloat(malt1.value) / 5.5;
+		total+= 30 * parseFloat(malt1.value) / vol;
 		weight+=parseFloat(malt1.value);
 	}
 	if(malt2.value!=""){
-		total+= 28 * parseFloat(malt2.value) / 5.5;
+		total+= 28 * parseFloat(malt2.value) / vol;
 		weight+=parseFloat(malt2.value);
 	}
 	if(malt3.value!=""){
-		total+= 30 * parseFloat(malt3.value) / 5.5;
+		total+= 30 * parseFloat(malt3.value) / vol;
 		weight+=parseFloat(malt3.value);
 	}
 	if(malt4.value!=""){
-		total+= 28 * parseFloat(malt4.value) / 5.5;
+		total+= 28 * parseFloat(malt4.value) / vol;
 		weight+=parseFloat(malt4.value);
 	}
 	if(malt5.value!=""){
-		total+= 28 * parseFloat(malt5.value) / 5.5;
+		total+= 28 * parseFloat(malt5.value) / vol;
 		weight+=parseFloat(malt5.value);
 	}
 	if(malt6.value!=""){
-		total+= 28 * parseFloat(malt6.value) / 5.5;
+		total+= 28 * parseFloat(malt6.value) / vol;
 		weight+=parseFloat(malt6.value);
 	}
 	if(malt7.value!=""){
-		total+= 26 * parseFloat(malt7.value) / 5.5;
+		total+= 26 * parseFloat(malt7.value) / vol;
 		weight+=parseFloat(malt7.value);
 	}
 	if(malt8.value!=""){
-		total+= 26 * parseFloat(malt8.value) / 5.5;
+		total+= 26 * parseFloat(malt8.value) / vol;
 		weight+=parseFloat(malt8.value);
 	}
 	if(malt9.value!=""){
-		total+= 28 * parseFloat(malt9.value) / 5.5;
+		total+= 28 * parseFloat(malt9.value) / vol;
 		weight+=parseFloat(malt9.value);
 	}
 	if(malt10.value!=""){
-		total+= 27 * parseFloat(malt10.value) / 5.5;
+		total+= 27 * parseFloat(malt10.value) / vol;
 		weight+=parseFloat(malt10.value);
 	}
 	if(malt11.value!=""){
-		total+= 27 * parseFloat(malt11.value) / 5.5;
+		total+= 27 * parseFloat(malt11.value) / vol;
 		weight+=parseFloat(malt11.value);
 	}
 	if(malt12.value!=""){
-		total+= 26 * parseFloat(malt12.value) / 5.5;
+		total+= 26 * parseFloat(malt12.value) / vol;
 		weight+=parseFloat(malt12.value);
 	}
 	if(malt13.value!=""){
-		total+= 25 * parseFloat(malt13.value) / 5.5;
+		total+= 25 * parseFloat(malt13.value) / vol;
 		weight+=parseFloat(malt13.value);
 	}
 	if(malt14.value!=""){
-		total+= 22 * parseFloat(malt14.value) / 5.5;
+		total+= 22 * parseFloat(malt14.value) / vol;
 		weight+=parseFloat(malt14.value);
 	}
 	if(malt15.value!=""){
-		total+= 20 * parseFloat(malt15.value) / 5.5;
+		total+= 20 * parseFloat(malt15.value) / vol;
 		weight+=parseFloat(malt15.value);
 	}
 	if(malt16.value!=""){
-		total+= 20 * parseFloat(malt16.value) / 5.5;
+		total+= 20 * parseFloat(malt16.value) / vol;
 		weight+=parseFloat(malt16.value);
 	}
 	if(malt17.value!=""){
-		total+= 30 * parseFloat(malt17.value) / 5.5;
+		total+= 30 * parseFloat(malt17.value) / vol;
 		weight+=parseFloat(malt17.value);
 	}
 	if(malt18.value!=""){
-		total+= 23 * parseFloat(malt18.value) / 5.5;
+		total+= 23 * parseFloat(malt18.value) / vol;
 		weight+=parseFloat(malt18.value);
 	}
 	if(malt19.value!=""){
-		total+= 26 * parseFloat(malt19.value) / 5.5;
+		total+= 26 * parseFloat(malt19.value) / vol;
 		weight+=parseFloat(malt19.value);
 	}
 	if(malt20.value!=""){
-		total+= 31 * parseFloat(malt20.value) / 5.5;
+		total+= 31 * parseFloat(malt20.value) / vol;
 		weight+=parseFloat(malt20.value);
 	}
 	if(malt21.value!=""){
-		total+= 26 * parseFloat(malt21.value) / 5.5;
+		total+= 26 * parseFloat(malt21.value) / vol;
 		weight+=parseFloat(malt21.value);
 	}
 	if(malt22.value!=""){
-		total+= 29 * parseFloat(malt22.value) / 5.5;
+		total+= 29 * parseFloat(malt22.value) / vol;
 		weight+=parseFloat(malt22.value);
 	}
 	if(malt23.value!=""){
-		total+= 30 * parseFloat(malt23.value) / 5.5;
+		total+= 30 * parseFloat(malt23.value) / vol;
 		weight+=parseFloat(malt23.value);
 	}
 	if(malt24.value!=""){
-		total+= 32 * parseFloat(malt24.value) / 5.5;
+		total+= 32 * parseFloat(malt24.value) / vol;
 		weight+=parseFloat(malt24.value);
 	}
 	if(malt25.value!=""){
-		total+= 37 * parseFloat(malt25.value) / 5.5;
+		total+= 37 * parseFloat(malt25.value) / vol;
 		weight+=parseFloat(malt25.value);
 	}
 
@@ -207,6 +215,10 @@ function calculate()
 |====
 |Target Temperature in F   | ||<input type="number" name="TTemp" id="TTemp" onchange="calculate()" /> |
 |Grain Temperature in F   | ||<input type="number" name="GTemp" id="GTemp" onchange="calculate()" /> |
+| | |||
+|**System**   | |||
+|====
+|Volume (default: 5.5 gal.)   | ||<input type="number" name="Vol" id="Vol" onchange="calculate()" placeholder="5.5" /> |
 | | |||
 |**Results**   | |||
 |====
