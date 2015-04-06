@@ -50,6 +50,8 @@ function calculate()
 	var total = 0;
 	var weight = 0;
 
+	var mcu = 0; 
+
 	if(vol.value!=""){
 		vol = parseFloat(vol.value);
 	} else {
@@ -63,102 +65,127 @@ function calculate()
 	}
 
 	if(tworowlager.value!=""){
+		mcu+= parseFloat(tworowlager.value) * 2 / vol;
 		total+= 37 * (ppgyield) * parseFloat(tworowlager.value) / vol;
 		weight+=parseFloat(tworowlager.value);
 	}
 	if(sixrowbase.value!=""){
+		mcu+= parseFloat(sixrowbase.value) * 2 / vol;
 		total+= 35 * (ppgyield) * parseFloat(sixrowbase.value) / vol;
 		weight+=parseFloat(sixrowbase.value);
 	}
 	if(tworowpaleale.value!=""){
+		mcu+= parseFloat(tworowpaleale.value) * 2  / vol;
 		total+= 38 * (ppgyield) * parseFloat(tworowpaleale.value) / vol;
 		weight+=parseFloat(tworowpaleale.value);
 	}
 	if(victory.value!=""){
+		mcu+= parseFloat(victory.value) * 28 / vol;
 		total+= 35 * (ppgyield) * parseFloat(victory.value) / vol;
 		weight+=parseFloat(victory.value);
 	}
 	if(vienna.value!=""){
+		mcu+= parseFloat(vienna.value) * 6 / vol;
 		total+= 35 * (ppgyield) * parseFloat(vienna.value) / vol;
 		weight+=parseFloat(vienna.value);
 	}
 	if(munich.value!=""){
+		mcu+= parseFloat(munich.value) * 3 / vol;
 		total+= 35 * (ppgyield) * parseFloat(munich.value) / vol;
 		weight+=parseFloat(munich.value);
 	}
 	if(brown.value!=""){
+		mcu+= parseFloat(brown.value) * 65 / vol;
 		total+= 32 * (ppgyield) * parseFloat(brown.value) / vol;
 		weight+=parseFloat(brown.value);
 	}
 	if(dextrin.value!=""){
+		mcu+= parseFloat(dextrin.value) * 2 / vol;
 		total+= 32 * (ppgyield) * parseFloat(dextrin.value) / vol;
 		weight+=parseFloat(dextrin.value);
 	}
 	if(lightcrystal.value!=""){
+		mcu+= parseFloat(lightcrystal.value) * 10 / vol;
 		total+= 35 * (ppgyield) * parseFloat(lightcrystal.value) / vol;
 		weight+=parseFloat(lightcrystal.value);
 	}
 	if(palecrystal.value!=""){
+		mcu+= parseFloat(palecrystal.value) * 25 / vol;
 		total+= 34 * (ppgyield) * parseFloat(palecrystal.value) / vol;
 		weight+=parseFloat(palecrystal.value);
 	}
 	if(mediumcrystal.value!=""){
+		mcu+= parseFloat(mediumcrystal.value) * 65 / vol;
 		total+= 34 * (ppgyield) * parseFloat(mediumcrystal.value) / vol;
 		weight+=parseFloat(mediumcrystal.value);
 	}
 	if(darkcrystal.value!=""){
+		mcu+= parseFloat(darkcrystal.value) * 120 / vol;
 		total+= 33 * (ppgyield) * parseFloat(darkcrystal.value) / vol;
 		weight+=parseFloat(darkcrystal.value);
 	}
 	if(specialb.value!=""){
+		mcu+= parseFloat(specialb.value) * 180 / vol;
 		total+= 31 * (ppgyield) * parseFloat(specialb.value) / vol;
 		weight+=parseFloat(specialb.value);
 	}
 	if(chocolate.value!=""){
+		mcu+= parseFloat(chocolate.value) * 350 / vol;
 		total+= 28 * (ppgyield) * parseFloat(chocolate.value) / vol;
 		weight+=parseFloat(chocolate.value);
 	}
 	if(roastbarley.value!=""){
+		mcu+= parseFloat(roastbarley.value) * 300 / vol;
 		total+= 25 * (ppgyield) * parseFloat(roastbarley.value) / vol;
 		weight+=parseFloat(roastbarley.value);
 	}
 	if(blackpatent.value!=""){
+		mcu+= parseFloat(blackpatent.value) * 500 / vol;
 		total+= 25 * (ppgyield) * parseFloat(blackpatent.value) / vol;
 		weight+=parseFloat(blackpatent.value);
 	}
 	if(wheat.value!=""){
+		mcu+= parseFloat(wheat.value) * 2 / vol;
 		total+= 37 * (ppgyield) * parseFloat(wheat.value) / vol;
 		weight+=parseFloat(wheat.value);
 	}
 	if(rye.value!=""){
+		mcu+= parseFloat(rye.value) * 3.5 / vol;
 		total+= 29 * (ppgyield) * parseFloat(rye.value) / vol;
 		weight+=parseFloat(rye.value);
 	}
 	if(flakedoatmeal.value!=""){
+		mcu+= parseFloat(flakedoatmeal.value) * 1 / vol;
 		total+= 32 * (ppgyield) * parseFloat(flakedoatmeal.value) / vol;
 		weight+=parseFloat(flakedoatmeal.value);
 	}
 	if(flakedcorn.value!=""){
+		mcu+= parseFloat(flakedcorn.value) * 1.3 / vol;
 		total+= 39 * (ppgyield) * parseFloat(flakedcorn.value) / vol;
 		weight+=parseFloat(flakedcorn.value);
 	}
 	if(flakedbarley.value!=""){
+		mcu+= parseFloat(flakedbarley.value) * 1.7 / vol;
 		total+= 32 * (ppgyield) * parseFloat(flakedbarley.value) / vol;
 		weight+=parseFloat(flakedbarley.value);
 	}
 	if(flakedwheat.value!=""){
+		mcu+= parseFloat(flakedwheat.value) * 1.6 / vol;
 		total+= 36 * (ppgyield) * parseFloat(flakedwheat.value) / vol;
 		weight+=parseFloat(flakedwheat.value);
 	}
 	if(flakedrice.value!=""){
+		mcu+= parseFloat(flakedrice.value) * 1 / vol;
 		total+= 38 * (ppgyield) * parseFloat(flakedrice.value) / vol;
 		weight+=parseFloat(flakedrice.value);
 	}
 	if(maltodextrin.value!=""){
+		mcu+= parseFloat(maltodextrin.value) * 0 / vol;
 		total+= 40 * (ppgyield) * parseFloat(maltodextrin.value) / vol;
 		weight+=parseFloat(maltodextrin.value);
 	}
 	if(sugar.value!=""){
+		mcu+= parseFloat(sugar.value) * 0 / vol;
 		total+= 46 * (ppgyield) * parseFloat(sugar.value) / vol;
 		weight+=parseFloat(sugar.value);
 	}
@@ -185,6 +212,79 @@ function calculate()
 		beercalculator.elements["Temp"].value=stemp.toFixed(3);
 	}
 
+	console.log("mcu: " + mcu );
+	var srm = 1.4922 * (mcu ^ 0.6859);
+	console.log("srm: " + srm );
+	beercalculator.elements["Color"].value=srm.toFixed(2);
+
+	var colorhex = srmToRGB(srm);
+console.log(beercalculator.elements["Color"].style.backgroundColor);
+	beercalculator.elements["Color"].style.backgroundColor=colorhex;
+
+
+}
+function srmToRGB(srm) {
+    // Returns an RGB value based on SRM
+    var r=0, g=0, b=0;
+
+    if (srm>=0 && srm<=1) {
+        r = 240;
+        g = 239;
+        b = 181;
+    } else if (srm>1 && srm<=2) {
+        r = 233;
+        g = 215;
+        b = 108;
+    } else if (srm>2) {
+        // Set red decimal
+        if (srm<70.6843) {        
+            r = 243.8327-6.4040*srm+0.0453*srm*srm;
+        } else {
+            r = 17.5014;
+        }
+        // Set green decimal
+        if (srm<35.0674) {
+            g = 230.929-12.484*srm+0.178*srm*srm;
+        } else {
+            g = 12.0382;
+        }
+        // Set blue decimal
+        if (srm<4) {
+            b = -54*srm+216;
+        } else if (srm>=4 && srm<7) {
+            b = 0;
+        } else if (srm>=7 && srm<9) {
+            b = 13*srm-91;
+        } else if (srm>=9 && srm<13) {
+            b = 2*srm+8;
+        } else if (srm>=13 && srm<17) {
+            b = -1.5*srm+53.5;
+        } else if (srm>=17 && srm<22) {
+            b = 0.6*srm+17.8;
+        } else if (srm>=22 && srm<27) {
+            b = -2.2*srm+79.4;
+        } else if (srm>=27 && srm<34) {
+            b = -0.4285*srm + 31.5714;
+        } else {
+            b = 17;
+        }
+    }
+    var red = doubleToHex(r);
+    var green = doubleToHex(g);
+    var blue = doubleToHex(b);
+    return "#"+red+green+blue;
+}
+function doubleToHex(d) {
+    // Converts decimal in string to hex in string 
+    var hexText = d.toString(16);
+    var point = hexText.indexOf(".");
+    if (point != -1) {
+        hexText = hexText.substring(0,point);
+    }
+    while (hexText.length < 2) {
+        hexText = "0"+hexText;    
+    }
+    return hexText;
 }
 </script>
 
@@ -233,6 +333,7 @@ function calculate()
 |Original Gravity   | ||<input type="number" name="OG" id="OG" readonly style="border:0"/> |
 |Water for mash in quarts   | ||<input type="number" name="Water" id="Water" readonly style="border:0"/> |
 |Strike Temperature in F   | ||<input type="number" name="Temp" id="Temp" readonly style="border:0" /> |
+|Color (SRM)||| <input type="number" name="Color" id="Color" readonly style="border:0"/> |
 {: rules="groups"}
 
 </form>
