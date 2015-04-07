@@ -15,325 +15,56 @@ Some beer references and calculators for homebrewing. We get about a 80% efficie
 Calculator using table of typical malt yields[^1]
 
 <script>
-function calculate()
-{
-	var vol = beercalculator.elements["Vol"];
-	var ppgyield = beercalculator.elements["PPG"];
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('15 1D(){f e=k.j["1C"];f m=k.j["1B"];f N=k.j["N"];f M=k.j["M"];f L=k.j["L"];f J=k.j["J"];f P=k.j["P"];f O=k.j["O"];f U=k.j["U"];f T=k.j["T"];f S=k.j["S"];f Q=k.j["Q"];f R=k.j["R"];f K=k.j["K"];f H=k.j["H"];f y=k.j["y"];f z=k.j["z"];f I=k.j["I"];f w=k.j["w"];f u=k.j["u"];f v=k.j["v"];f A=k.j["A"];f B=k.j["B"];f G=k.j["G"];f F=k.j["F"];f E=k.j["E"];f C=k.j["C"];f l=0;f o=0;f n=0;h(e.a!=""){e=c(e.a)}p{e=5.5}h(m.a!=""){m=c(m.a)}p{m=0.1z}h(N.a!=""){n+=c(N.a)*2/e;l+=1i*(m)*c(N.a)/e;o+=c(N.a)}h(M.a!=""){n+=c(M.a)*2/e;l+=x*(m)*c(M.a)/e;o+=c(M.a)}h(L.a!=""){n+=c(L.a)*2/e;l+=1h*(m)*c(L.a)/e;o+=c(L.a)}h(J.a!=""){n+=c(J.a)*28/e;l+=x*(m)*c(J.a)/e;o+=c(J.a)}h(P.a!=""){n+=c(P.a)*6/e;l+=x*(m)*c(P.a)/e;o+=c(P.a)}h(O.a!=""){n+=c(O.a)*3/e;l+=x*(m)*c(O.a)/e;o+=c(O.a)}h(U.a!=""){n+=c(U.a)*1a/e;l+=Z*(m)*c(U.a)/e;o+=c(U.a)}h(T.a!=""){n+=c(T.a)*2/e;l+=Z*(m)*c(T.a)/e;o+=c(T.a)}h(S.a!=""){n+=c(S.a)*10/e;l+=x*(m)*c(S.a)/e;o+=c(S.a)}h(Q.a!=""){n+=c(Q.a)*25/e;l+=19*(m)*c(Q.a)/e;o+=c(Q.a)}h(R.a!=""){n+=c(R.a)*1a/e;l+=19*(m)*c(R.a)/e;o+=c(R.a)}h(K.a!=""){n+=c(K.a)*1F/e;l+=1K*(m)*c(K.a)/e;o+=c(K.a)}h(H.a!=""){n+=c(H.a)*1y/e;l+=1b*(m)*c(H.a)/e;o+=c(H.a)}h(y.a!=""){n+=c(y.a)*1I/e;l+=28*(m)*c(y.a)/e;o+=c(y.a)}h(z.a!=""){n+=c(z.a)*1G/e;l+=25*(m)*c(z.a)/e;o+=c(z.a)}h(I.a!=""){n+=c(I.a)*1L/e;l+=25*(m)*c(I.a)/e;o+=c(I.a)}h(w.a!=""){n+=c(w.a)*2/e;l+=1i*(m)*c(w.a)/e;o+=c(w.a)}h(u.a!=""){n+=c(u.a)*3.5/e;l+=29*(m)*c(u.a)/e;o+=c(u.a)}h(v.a!=""){n+=c(v.a)*1/e;l+=Z*(m)*c(v.a)/e;o+=c(v.a)}h(A.a!=""){n+=c(A.a)*1.3/e;l+=1v*(m)*c(A.a)/e;o+=c(A.a)}h(B.a!=""){n+=c(B.a)*1.7/e;l+=Z*(m)*c(B.a)/e;o+=c(B.a)}h(G.a!=""){n+=c(G.a)*1.6/e;l+=1p*(m)*c(G.a)/e;o+=c(G.a)}h(F.a!=""){n+=c(F.a)*1/e;l+=1h*(m)*c(F.a)/e;o+=c(F.a)}h(E.a!=""){n+=c(E.a)*0/e;l+=1n*(m)*c(E.a)/e;o+=c(E.a)}h(C.a!=""){n+=c(C.a)*0/e;l+=1q*(m)*c(C.a)/e;o+=c(C.a)}s.t("o: "+o);f l=(1+(l/1u));s.t("l 1t: "+l);k.j["1r"].a=l.W(3);f X=1.25*o;s.t("X 1J: "+X);k.j["1T"].a=X.W(3);f V=k.j["2i"];f D=k.j["2h"];h(V.a!=""&&D!=""){D=c(D.a);V=c(V.a);f 18=(0.2/1.25)*(D-V)+D;s.t("2l 2c: "+18);k.j["2e"].a=18.W(3)}s.t("n: "+n);f i=1.2k*(n^0.1S);s.t("i: "+i);k.j["11"].a=i.W(2);f 1d=1g(i);s.t(k.j["11"].1e.1f);k.j["11"].1e.1f=1d}15 1g(i){f r=0,g=0,b=0;h(i>=0&&i<=1){r=1O;g=1P;b=1V}p h(i>1&&i<=2){r=1W;g=23;b=24}p h(i>2){h(i<26.21){r=20.1X-6.1Y*i+0.1Z*i*i}p{r=17.1w}h(i<x.1N){g=1U.2a-12.2f*i+0.2d*i*i}p{g=12.2j}h(i<4){b=-1M*i+1x}p h(i>=4&&i<7){b=0}p h(i>=7&&i<9){b=13*i-1o}p h(i>=9&&i<13){b=2*i+8}p h(i>=13&&i<17){b=-1.5*i+1m.5}p h(i>=17&&i<22){b=0.6*i+17.8}p h(i>=22&&i<27){b=-2.2*i+1H.4}p h(i>=27&&i<19){b=-0.1E*i+1b.1A}p{b=17}}f 1j=Y(r);f 1l=Y(g);f 1k=Y(b);1c"#"+1j+1l+1k}15 Y(d){f q=d.1Q(16);f 14=q.1R(".");h(14!=-1){q=q.2b(0,14)}2g(q.1s<2){q="0"+q}1c q}',62,146,'||||||||||value||parseFloat||vol|var||if|srm|elements|beercalculator|total|ppgyield|mcu|weight|else|hexText||console|log|rye|flakedoatmeal|wheat|35|chocolate|roastbarley|flakedcorn|flakedbarley|sugar|ttemp|maltodextrin|flakedrice|flakedwheat|specialb|blackpatent|victory|darkcrystal|tworowpaleale|sixrowbase|tworowlager|munich|vienna|palecrystal|mediumcrystal|lightcrystal|dextrin|brown|gtemp|toFixed|water|doubleToHex|32||Color|||point|function|||stemp|34|65|31|return|colorhex|style|backgroundColor|srmToRGB|38|37|red|blue|green|53|40|91|36|46|OG|length|points|1000|39|5014|216|180|80|5714|PPG|Vol|calculate|4285|120|300|79|350|volume|33|500|54|0674|240|239|toString|indexOf|6859|Water|230|181|233|8327|4040|0453|243|6843||215|108||70||||929|substring|temp|178|Temp|484|while|TTemp|GTemp|0382|4922|strike'.split('|'),0,{}))
 
-	var tworowlager = beercalculator.elements["tworowlager"];
-	var sixrowbase = beercalculator.elements["sixrowbase"];
-	var tworowpaleale = beercalculator.elements["tworowpaleale"];
-	var victory = beercalculator.elements["victory"];
-	var vienna = beercalculator.elements["vienna"];
-	var munich = beercalculator.elements["munich"];
-	var brown = beercalculator.elements["brown"];
-	var dextrin = beercalculator.elements["dextrin"];
-	var lightcrystal = beercalculator.elements["lightcrystal"];
-	var palecrystal = beercalculator.elements["palecrystal"];
-	var mediumcrystal = beercalculator.elements["mediumcrystal"];
-	var darkcrystal = beercalculator.elements["darkcrystal"];
-	var specialb = beercalculator.elements["specialb"];
-	var chocolate = beercalculator.elements["chocolate"];
-	var roastbarley = beercalculator.elements["roastbarley"];
-	var blackpatent = beercalculator.elements["blackpatent"];
-	var wheat = beercalculator.elements["wheat"];
-	var rye = beercalculator.elements["rye"];
-	var flakedoatmeal = beercalculator.elements["flakedoatmeal"];
-	var flakedcorn = beercalculator.elements["flakedcorn"];
-	var flakedbarley = beercalculator.elements["flakedbarley"];
-	var flakedwheat = beercalculator.elements["flakedwheat"];
-	var flakedrice = beercalculator.elements["flakedrice"];
-	var maltodextrin = beercalculator.elements["maltodextrin"];
-	var sugar = beercalculator.elements["sugar"];
-
-
-	var total = 0;
-	var weight = 0;
-
-	var mcu = 0; 
-
-	if(vol.value!=""){
-		vol = parseFloat(vol.value);
-	} else {
-		vol = 5.5;
-	}
-
-	if(ppgyield.value!=""){
-		ppgyield = parseFloat(ppgyield.value);
-	} else {
-		ppgyield = 0.80;
-	}
-
-	if(tworowlager.value!=""){
-		mcu+= parseFloat(tworowlager.value) * 2 / vol;
-		total+= 37 * (ppgyield) * parseFloat(tworowlager.value) / vol;
-		weight+=parseFloat(tworowlager.value);
-	}
-	if(sixrowbase.value!=""){
-		mcu+= parseFloat(sixrowbase.value) * 2 / vol;
-		total+= 35 * (ppgyield) * parseFloat(sixrowbase.value) / vol;
-		weight+=parseFloat(sixrowbase.value);
-	}
-	if(tworowpaleale.value!=""){
-		mcu+= parseFloat(tworowpaleale.value) * 2  / vol;
-		total+= 38 * (ppgyield) * parseFloat(tworowpaleale.value) / vol;
-		weight+=parseFloat(tworowpaleale.value);
-	}
-	if(victory.value!=""){
-		mcu+= parseFloat(victory.value) * 28 / vol;
-		total+= 35 * (ppgyield) * parseFloat(victory.value) / vol;
-		weight+=parseFloat(victory.value);
-	}
-	if(vienna.value!=""){
-		mcu+= parseFloat(vienna.value) * 6 / vol;
-		total+= 35 * (ppgyield) * parseFloat(vienna.value) / vol;
-		weight+=parseFloat(vienna.value);
-	}
-	if(munich.value!=""){
-		mcu+= parseFloat(munich.value) * 3 / vol;
-		total+= 35 * (ppgyield) * parseFloat(munich.value) / vol;
-		weight+=parseFloat(munich.value);
-	}
-	if(brown.value!=""){
-		mcu+= parseFloat(brown.value) * 65 / vol;
-		total+= 32 * (ppgyield) * parseFloat(brown.value) / vol;
-		weight+=parseFloat(brown.value);
-	}
-	if(dextrin.value!=""){
-		mcu+= parseFloat(dextrin.value) * 2 / vol;
-		total+= 32 * (ppgyield) * parseFloat(dextrin.value) / vol;
-		weight+=parseFloat(dextrin.value);
-	}
-	if(lightcrystal.value!=""){
-		mcu+= parseFloat(lightcrystal.value) * 10 / vol;
-		total+= 35 * (ppgyield) * parseFloat(lightcrystal.value) / vol;
-		weight+=parseFloat(lightcrystal.value);
-	}
-	if(palecrystal.value!=""){
-		mcu+= parseFloat(palecrystal.value) * 25 / vol;
-		total+= 34 * (ppgyield) * parseFloat(palecrystal.value) / vol;
-		weight+=parseFloat(palecrystal.value);
-	}
-	if(mediumcrystal.value!=""){
-		mcu+= parseFloat(mediumcrystal.value) * 65 / vol;
-		total+= 34 * (ppgyield) * parseFloat(mediumcrystal.value) / vol;
-		weight+=parseFloat(mediumcrystal.value);
-	}
-	if(darkcrystal.value!=""){
-		mcu+= parseFloat(darkcrystal.value) * 120 / vol;
-		total+= 33 * (ppgyield) * parseFloat(darkcrystal.value) / vol;
-		weight+=parseFloat(darkcrystal.value);
-	}
-	if(specialb.value!=""){
-		mcu+= parseFloat(specialb.value) * 180 / vol;
-		total+= 31 * (ppgyield) * parseFloat(specialb.value) / vol;
-		weight+=parseFloat(specialb.value);
-	}
-	if(chocolate.value!=""){
-		mcu+= parseFloat(chocolate.value) * 350 / vol;
-		total+= 28 * (ppgyield) * parseFloat(chocolate.value) / vol;
-		weight+=parseFloat(chocolate.value);
-	}
-	if(roastbarley.value!=""){
-		mcu+= parseFloat(roastbarley.value) * 300 / vol;
-		total+= 25 * (ppgyield) * parseFloat(roastbarley.value) / vol;
-		weight+=parseFloat(roastbarley.value);
-	}
-	if(blackpatent.value!=""){
-		mcu+= parseFloat(blackpatent.value) * 500 / vol;
-		total+= 25 * (ppgyield) * parseFloat(blackpatent.value) / vol;
-		weight+=parseFloat(blackpatent.value);
-	}
-	if(wheat.value!=""){
-		mcu+= parseFloat(wheat.value) * 2 / vol;
-		total+= 37 * (ppgyield) * parseFloat(wheat.value) / vol;
-		weight+=parseFloat(wheat.value);
-	}
-	if(rye.value!=""){
-		mcu+= parseFloat(rye.value) * 3.5 / vol;
-		total+= 29 * (ppgyield) * parseFloat(rye.value) / vol;
-		weight+=parseFloat(rye.value);
-	}
-	if(flakedoatmeal.value!=""){
-		mcu+= parseFloat(flakedoatmeal.value) * 1 / vol;
-		total+= 32 * (ppgyield) * parseFloat(flakedoatmeal.value) / vol;
-		weight+=parseFloat(flakedoatmeal.value);
-	}
-	if(flakedcorn.value!=""){
-		mcu+= parseFloat(flakedcorn.value) * 1.3 / vol;
-		total+= 39 * (ppgyield) * parseFloat(flakedcorn.value) / vol;
-		weight+=parseFloat(flakedcorn.value);
-	}
-	if(flakedbarley.value!=""){
-		mcu+= parseFloat(flakedbarley.value) * 1.7 / vol;
-		total+= 32 * (ppgyield) * parseFloat(flakedbarley.value) / vol;
-		weight+=parseFloat(flakedbarley.value);
-	}
-	if(flakedwheat.value!=""){
-		mcu+= parseFloat(flakedwheat.value) * 1.6 / vol;
-		total+= 36 * (ppgyield) * parseFloat(flakedwheat.value) / vol;
-		weight+=parseFloat(flakedwheat.value);
-	}
-	if(flakedrice.value!=""){
-		mcu+= parseFloat(flakedrice.value) * 1 / vol;
-		total+= 38 * (ppgyield) * parseFloat(flakedrice.value) / vol;
-		weight+=parseFloat(flakedrice.value);
-	}
-	if(maltodextrin.value!=""){
-		mcu+= parseFloat(maltodextrin.value) * 0 / vol;
-		total+= 40 * (ppgyield) * parseFloat(maltodextrin.value) / vol;
-		weight+=parseFloat(maltodextrin.value);
-	}
-	if(sugar.value!=""){
-		mcu+= parseFloat(sugar.value) * 0 / vol;
-		total+= 46 * (ppgyield) * parseFloat(sugar.value) / vol;
-		weight+=parseFloat(sugar.value);
-	}
-
-	console.log("weight: " + weight);
-
-	var total = (1+(total/1000));
-	console.log("total points: " + total);
-
-	beercalculator.elements["OG"].value=total.toFixed(3);
-
-	var water = 1.25*weight;
-	console.log("water volume: " + water);
-
-	beercalculator.elements["Water"].value=water.toFixed(3);
-
-	var gtemp = beercalculator.elements["GTemp"];
-	var ttemp = beercalculator.elements["TTemp"];
-	if(gtemp.value!="" && ttemp!=""){
-		ttemp = parseFloat(ttemp.value);
-		gtemp = parseFloat(gtemp.value);
-		var stemp=(0.2/1.25)*(ttemp - gtemp)+ttemp;
-		console.log("strike temp: " + stemp);
-		beercalculator.elements["Temp"].value=stemp.toFixed(3);
-	}
-
-	console.log("mcu: " + mcu );
-	var srm = 1.4922 * (mcu ^ 0.6859);
-	console.log("srm: " + srm );
-	beercalculator.elements["Color"].value=srm.toFixed(2);
-
-	var colorhex = srmToRGB(srm);
-console.log(beercalculator.elements["Color"].style.backgroundColor);
-	beercalculator.elements["Color"].style.backgroundColor=colorhex;
-
-
-}
-function srmToRGB(srm) {
-    // Returns an RGB value based on SRM
-    var r=0, g=0, b=0;
-
-    if (srm>=0 && srm<=1) {
-        r = 240;
-        g = 239;
-        b = 181;
-    } else if (srm>1 && srm<=2) {
-        r = 233;
-        g = 215;
-        b = 108;
-    } else if (srm>2) {
-        // Set red decimal
-        if (srm<70.6843) {        
-            r = 243.8327-6.4040*srm+0.0453*srm*srm;
-        } else {
-            r = 17.5014;
-        }
-        // Set green decimal
-        if (srm<35.0674) {
-            g = 230.929-12.484*srm+0.178*srm*srm;
-        } else {
-            g = 12.0382;
-        }
-        // Set blue decimal
-        if (srm<4) {
-            b = -54*srm+216;
-        } else if (srm>=4 && srm<7) {
-            b = 0;
-        } else if (srm>=7 && srm<9) {
-            b = 13*srm-91;
-        } else if (srm>=9 && srm<13) {
-            b = 2*srm+8;
-        } else if (srm>=13 && srm<17) {
-            b = -1.5*srm+53.5;
-        } else if (srm>=17 && srm<22) {
-            b = 0.6*srm+17.8;
-        } else if (srm>=22 && srm<27) {
-            b = -2.2*srm+79.4;
-        } else if (srm>=27 && srm<34) {
-            b = -0.4285*srm + 31.5714;
-        } else {
-            b = 17;
-        }
-    }
-    var red = doubleToHex(r);
-    var green = doubleToHex(g);
-    var blue = doubleToHex(b);
-    return "#"+red+green+blue;
-}
-function doubleToHex(d) {
-    // Converts decimal in string to hex in string 
-    var hexText = d.toString(16);
-    var point = hexText.indexOf(".");
-    if (point != -1) {
-        hexText = hexText.substring(0,point);
-    }
-    while (hexText.length < 2) {
-        hexText = "0"+hexText;    
-    }
-    return hexText;
-}
 </script>
 
 <form action="" id="beercalculator" onsubmit="return false;">
 
-| Malt Type | Max. PPG | Typical PPG (80%) | Pounds |
-|:----------|:--------:|:-----------------:|:---------:|
-|2 Row Lager Malt | 37 | 30 | <input type="number" min="0" step="0.125" name="tworowlager" id="tworowlager" onchange="calculate()" /> |
-|6 Row Base Malt | 35 | 28 | <input type="number" min="0" step="0.125" name="sixrowbase" id="sixrowbase" onchange="calculate()" /> |
-|2 Row Pale Ale Malt | 38 | 30 | <input type="number" min="0" step="0.125" name="tworowpaleale" id="tworowpaleale" onchange="calculate()" /> |
-|Biscuit/Victory Malt | 35 | 28 | <input type="number" min="0" step="0.125" name="victory" id="victory" onchange="calculate()" /> |
-|Vienna Malt | 35 | 28 | <input type="number" min="0" step="0.125" name="vienna" id="vienna" onchange="calculate()" /> |
-|Munich Malt | 35 | 28 | <input type="number" min="0" step="0.125" name="munich" id="munich" onchange="calculate()" /> |
-|Brown Malt | 32 | 26 | <input type="number" min="0" step="0.125" name="brown" id="brown" onchange="calculate()" /> |
-|Dextrin Malt | 32 | 26 | <input type="number" min="0" step="0.125" name="dextrin" id="dextrin" onchange="calculate()" /> |
-|Light Crystal (10 - 15L) | 35 | 28 | <input type="number" min="0" step="0.125" name="lightcrystal" id="lightcrystal" onchange="calculate()" /> |
-|Pale Crystal (25 - 40L) | 34 | 27 | <input type="number" min="0" step="0.125" name="palecrystal" id="palecrystal" onchange="calculate()" /> |
-|Medium Crystal (60 - 75L) | 34 | 27 | <input type="number" min="0" step="0.125" name="mediumcrystal" id="mediumcrystal" onchange="calculate()" /> |
-|Dark Crystal (120L) | 33 | 26 | <input type="number" min="0" step="0.125" name="darkcrystal" id="darkcrystal" onchange="calculate()" /> |
-|Special B | 31 | 25 | <input type="number" min="0" step="0.125" name="specialb" id="specialb" onchange="calculate()" /> |
-|Chocolate Malt | 28 | 22 | <input type="number" min="0" step="0.125" name="chocolate" id="chocolate" onchange="calculate()" /> |
-|Roast Barley | 25 | 20 | <input type="number" min="0" step="0.125" name="roastbarley" id="roastbarley" onchange="calculate()" /> |
-|Black Patent Malt | 25 | 20 | <input type="number" min="0" step="0.125" name="blackpatent" id="blackpatent" onchange="calculate()" /> |
-|Wheat Malt | 37 | 30 | <input type="number" min="0" step="0.125" name="wheat" id="wheat" onchange="calculate()" /> |
-|Rye Malt | 29 | 23 | <input type="number" min="0" step="0.125" name="rye" id="rye" onchange="calculate()" /> |
-|Oatmeal (Flaked) | 32 | 26 | <input type="number" min="0" step="0.125" name="flakedoatmeal" id="flakedoatmeal" onchange="calculate()" /> |
-|Corn (Flaked) | 39 | 31 | <input type="number" min="0" step="0.125" name="flakedcorn" id="flakedcorn" onchange="calculate()" /> |
-|Barley (Flaked) | 32 | 26 | <input type="number" min="0" step="0.125" name="flakedbarley" id="flakedbarley" onchange="calculate()" /> |
-|Wheat (Flaked) | 36 | 29 | <input type="number" min="0" step="0.125" name="flakedwheat" id="flakedwheat" onchange="calculate()" /> |
-|Rice (Flaked) | 38 | 30 | <input type="number" min="0" step="0.125" name="flakedrice" id="flakedrice" onchange="calculate()" /> |
-|Malto - Dextrin Powder | 40 | 32 | <input type="number" min="0" step="0.125" name="maltodextrin" id="maltodextrin" onchange="calculate()" /> |
-|Sugar (Corn, Cane) | 46 | 37 | <input type="number" min="0" step="0.125" name="sugar" id="sugar" onchange="calculate()" /> |
-| | |||
-|**Temperature**   | |||
+| Malt Type | Max. PPG | Pounds |
+|:----------|:--------:|:---------:|
+|2 Row Lager Malt | 37 | <input type="number" min="0" step="0.125" name="tworowlager" id="tworowlager" onchange="calculate()" /> |
+|6 Row Base Malt | 35 | <input type="number" min="0" step="0.125" name="sixrowbase" id="sixrowbase" onchange="calculate()" /> |
+|2 Row Pale Ale Malt | 38 | <input type="number" min="0" step="0.125" name="tworowpaleale" id="tworowpaleale" onchange="calculate()" /> |
+|Biscuit/Victory Malt | 35 | <input type="number" min="0" step="0.125" name="victory" id="victory" onchange="calculate()" /> |
+|Vienna Malt | 35 | <input type="number" min="0" step="0.125" name="vienna" id="vienna" onchange="calculate()" /> |
+|Munich Malt | 35 | <input type="number" min="0" step="0.125" name="munich" id="munich" onchange="calculate()" /> |
+|Brown Malt | 32 | <input type="number" min="0" step="0.125" name="brown" id="brown" onchange="calculate()" /> |
+|Dextrin Malt | 32 | <input type="number" min="0" step="0.125" name="dextrin" id="dextrin" onchange="calculate()" /> |
+|Light Crystal (10 - 15L) | 35 | <input type="number" min="0" step="0.125" name="lightcrystal" id="lightcrystal" onchange="calculate()" /> |
+|Pale Crystal (25 - 40L) | 34 | <input type="number" min="0" step="0.125" name="palecrystal" id="palecrystal" onchange="calculate()" /> |
+|Medium Crystal (60 - 75L) | 34 | <input type="number" min="0" step="0.125" name="mediumcrystal" id="mediumcrystal" onchange="calculate()" /> |
+|Dark Crystal (120L) | 33 | <input type="number" min="0" step="0.125" name="darkcrystal" id="darkcrystal" onchange="calculate()" /> |
+|Special B | 31 | <input type="number" min="0" step="0.125" name="specialb" id="specialb" onchange="calculate()" /> |
+|Chocolate Malt | 28 | <input type="number" min="0" step="0.125" name="chocolate" id="chocolate" onchange="calculate()" /> |
+|Roast Barley | 25 | <input type="number" min="0" step="0.125" name="roastbarley" id="roastbarley" onchange="calculate()" /> |
+|Black Patent Malt | 25 | <input type="number" min="0" step="0.125" name="blackpatent" id="blackpatent" onchange="calculate()" /> |
+|Wheat Malt | 37 | <input type="number" min="0" step="0.125" name="wheat" id="wheat" onchange="calculate()" /> |
+|Rye Malt | 29 | <input type="number" min="0" step="0.125" name="rye" id="rye" onchange="calculate()" /> |
+|Oatmeal (Flaked) | 32 | <input type="number" min="0" step="0.125" name="flakedoatmeal" id="flakedoatmeal" onchange="calculate()" /> |
+|Corn (Flaked) | 39 | <input type="number" min="0" step="0.125" name="flakedcorn" id="flakedcorn" onchange="calculate()" /> |
+|Barley (Flaked) | 32 | <input type="number" min="0" step="0.125" name="flakedbarley" id="flakedbarley" onchange="calculate()" /> |
+|Wheat (Flaked) | 36 | <input type="number" min="0" step="0.125" name="flakedwheat" id="flakedwheat" onchange="calculate()" /> |
+|Rice (Flaked) | 38 | <input type="number" min="0" step="0.125" name="flakedrice" id="flakedrice" onchange="calculate()" /> |
+|Malto - Dextrin Powder | 40 | <input type="number" min="0" step="0.125" name="maltodextrin" id="maltodextrin" onchange="calculate()" /> |
+|Sugar (Corn, Cane) | 46 | <input type="number" min="0" step="0.125" name="sugar" id="sugar" onchange="calculate()" /> |
+||||
+|**Temperature** |||
 |====
-|Target Temperature in F   | ||<input type="number" name="TTemp" id="TTemp" onchange="calculate()" /> |
-|Grain Temperature in F   | ||<input type="number" name="GTemp" id="GTemp" onchange="calculate()" /> |
-| | |||
-|**System**   | |||
+|Target Temperature in F ||<input type="number" name="TTemp" id="TTemp" onchange="calculate()" /> |
+|Grain Temperature in F  ||<input type="number" name="GTemp" id="GTemp" onchange="calculate()" /> |
+||||
+|**System** |||
 |====
-|Volume (default: 5.5 gal.)   | ||<input type="number" name="Vol" id="Vol" onchange="calculate()" placeholder="5.5" min="0"/> |
-|PPG Yield (default: 0.80)	| ||<input type="number" name="PPG" id="PPG" onchange="calculate()" placeholder="0.80" min="0" max="1" step="0.01" size="20" /> |
-| | |||
-|**Results**   | |||
+|Volume (default: 5.5 gal.) ||<input type="number" name="Vol" id="Vol" onchange="calculate()" placeholder="5.5" min="0"/> |
+|PPG Yield (default: 0.80)	||<input type="number" name="PPG" id="PPG" onchange="calculate()" placeholder="0.80" min="0" max="1" step="0.01" size="20" /> |
+||||
+|**Results** |||
 |====
-|Original Gravity   | ||<input type="number" name="OG" id="OG" readonly style="border:0"/> |
-|Water for mash in quarts   | ||<input type="number" name="Water" id="Water" readonly style="border:0"/> |
-|Strike Temperature in F   | ||<input type="number" name="Temp" id="Temp" readonly style="border:0" /> |
-|Color (SRM)||| <input type="number" name="Color" id="Color" readonly style="border:0"/> |
+|Original Gravity ||<input type="number" name="OG" id="OG" readonly style="border:0"/> |
+|Water for mash in quarts ||<input type="number" name="Water" id="Water" readonly style="border:0"/> |
+|Strike Temperature in F  ||<input type="number" name="Temp" id="Temp" readonly style="border:0" /> |
+|Color (SRM)|| <input type="number" name="Color" id="Color" readonly style="border:0"/> |
 {: rules="groups"}
 
 </form>
