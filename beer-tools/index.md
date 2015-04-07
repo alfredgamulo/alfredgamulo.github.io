@@ -57,7 +57,7 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 |**System** |||
 |====
 |Volume (default: 5.5 gal.) ||<input type="number" name="Vol" id="Vol" onchange="calculate()" placeholder="5.5" min="0"/> |
-|PPG Yield (default: 0.80)	||<input type="number" name="PPG" id="PPG" onchange="calculate()" placeholder="0.80" min="0" max="1" step="0.01" size="20" /> |
+|Brewhouse Efficiency (default: 0.80)	||<input type="number" name="PPG" id="PPG" onchange="calculate()" placeholder="0.80" min="0" max="1" step="0.01" size="20" /> |
 ||||
 |**Results** |||
 |====
