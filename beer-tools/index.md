@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Beer Tools
-description: "Handy calculators for brewing"
+description: "Handy homebrew beer recipe calculators for brewing"
 image:
   feature: abstract-11.jpg
   credit: dargadgetz
@@ -10,7 +10,7 @@ share: true
 ---
 {::options parse_block_html="true" /}
 
-Some beer references and calculators for homebrewing. We get about a 80% efficiency for a 5.5 gallon system, so those are somewhat built into the page calculators.
+I made a useful homebrew beer recipe calculator. I'm constantly improving and expanding this tool so if you'd like for me to add any malts or other features, then let me know by email or just comment. Thanks!
 
 Calculator using table of typical malt yields[^1]
 
