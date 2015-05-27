@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/alfred
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://alfredgamulo.com
+  * I am alfred (https://keybase.io/alfred) on keybase.
+  * I have a public key with fingerprint 6563 28F9 8C70 9310 2876  B603 C43A 8AFF 4CD6 694A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "656328f98c7093102876b603c43a8aff4cd6694a",
+            "host": "keybase.io",
+            "key_id": "c43a8aff4cd6694a",
+            "kid": "0101891e84043778bbeb9539fcb745f96a0ea7a0d9b97f78996e0b8cbafebc7dfd4b0a",
+            "uid": "7b2b547ab5377906300c69cd065aa419",
+            "username": "alfred"
+        },
+        "service": {
+            "hostname": "alfredgamulo.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1432694499,
+    "expire_in": 157680000,
+    "prev": "e05a80a51e92fbff26313ddeccfc723deee15978e789d6bf0fdab39ef6475572",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIeAnicbZJbSBVBGMePpac6GBldTEuptaKL2ezZy+ysFWRBJJFGdHk4IDO7M8c1
+3T2eiyZmEaIPogWCGEVGpoQkFqRWD2WeRDQlAqmXxKjowS4PZb4UWbNSD0HzMsz3
+/f+/me/PDC1d6PElDOkNvw69tPITxgbzYp5jNOddtUAcs0rQq4VTdH5jlh2k4VDY
+sqOCLqiKKvk1hjQDAiSJwK9BlahAMmQJa5gx2TBVFclYyBaKnYjr4BiCIzTHcniN
+H4osk1f/oz813wAiEDUkUk0GsgShRgglSJEQMwiUFYZUDCiGGJiIIMighpBKAdEM
+ghklBjSZKRPg4mLzOEj8RJEhJgqHIaBKABgqMkygKhjLInKFERq2cRnlalzKwtQU
+arIFXquwDOoG4M7xTz+Iy2KlTo7hlHF3KOxEHcMp5d3iaDSku+ZoVchVV1JS9IdT
+RCzb5EFyQwUNRyzHFnSRK42o5YJFWfLzFGSEsgV6OmSFaZHlKhSoaoAv9xpawZEU
+KFgDWBEp8jPCmF+VRMk0qWEwA/olk1IqKghqlAdjqoQBZmIiIcpUGSoK9AvuZOW2
+I+gyfyYOcmTECto4GgtToSb+OJDoSfB5vEkL3K/g8S1J+ftBur4u+pm5f6YxZNeN
+DqR/f1iOXinj7Zuc+1mLkwN9fbGUtWfjUuqGYGe/V2/8uGb9RMrV5ekXpeHZnpYr
+qwO3ky4tynhzs0kZrX2d1/pk15v+5/WVA4GMg/tm0vY2LU/bOHmmYTo5Ny35bo5e
+92Wu621iZnv31LXAqK+THX/6YOvOF8URT+OW2ZKOZ9Nz9u2055dbbywofH/vSO23
+XinxXV23r/3D2CvvGnjn/I7hzraNUyv2LKufzt1R0HJ44Vx8ovnTytT4ZP6PHi/s
+2W4PNo+ujl04e70vPuLNik3Ndp/sWNfVKI4fOLKqXN98K9+XFeotfnS+4HOSfm4G
+Ht3dll0Y9ZwY2VbyGy61Ja4=
+=zZl2
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alfred
+
+==================================================================
