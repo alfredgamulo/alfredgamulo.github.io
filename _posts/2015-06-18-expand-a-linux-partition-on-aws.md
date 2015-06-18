@@ -6,6 +6,10 @@ tags: [code]
 modified: 2015-06-18
 ---
 
+A couple of days ago, I went through the steps of enlarging my AWS instance volume as well as switching over from magnetic drives to SSD. I thought everything would just work magically when I restarted the instance but instead found that the file system did not recognize the change in disk size. I should not have assumed that the VM would know how I want to use the extra disk space.
+
+The following shell output details the steps required to expand the Linux file system after increasing the instance volume size.
+
 {% highlight Bash shell scripts %}
 
 [ec2-user@service ~]$ df -h # check the filesystem
