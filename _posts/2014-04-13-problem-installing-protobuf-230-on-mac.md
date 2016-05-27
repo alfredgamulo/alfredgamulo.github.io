@@ -20,4 +20,4 @@ Installing the 2.3.0 version of google protobuf using homebrew was being problem
 #endif
 {% endhighlight %}
 
-[^1]: Source: *https://code.google.com/p/protobuf/issues/detail?id=570*
+[^1]: [https://code.google.com/p/protobuf/issues/detail?id=570](https://code.google.com/p/protobuf/issues/detail?id=570)

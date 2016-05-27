@@ -56,4 +56,4 @@ GRADLE_OPTS="-Xmx2048m -XX:MaxPermSize=512m -XX:+CMSClassUnloadingEnabled"
 {% endhighlight %}
 
 
-[^1]: Source: <a href="http://gradle.1045684.n5.nabble.com/Simple-Example-War-Deployment-For-Weblogic-td4296554.html">http://gradle.1045684.n5.nabble.com/Simple-Example-War-Deployment-For-Weblogic-td4296554.html</a>
+[^1]: [http://gradle.1045684.n5.nabble.com/Simple-Example-War-Deployment-For-Weblogic-td4296554.html](http://gradle.1045684.n5.nabble.com/Simple-Example-War-Deployment-For-Weblogic-td4296554.html)
