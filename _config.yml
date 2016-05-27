@@ -40,10 +40,9 @@ highlighter:  rouge
 # Gems
 gems: 
   - jekyll-paginate
-  - jekyll-gist
+
 whitelist:
   - jekyll-paginate
-  - jekyll-gist
 
 # Amount of posts to show on home page
 paginate: 5
