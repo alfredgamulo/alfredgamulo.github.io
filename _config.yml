@@ -34,7 +34,7 @@ timezone:     America/New_York
 future:       true
 markdown:     kramdown
 kramdown:
-  input: GFM
+  input:      GFM
 highlighter:  rouge
 
 # Gems
