@@ -13,7 +13,7 @@ The solution is as follows:
 
 In the `server.xml` under the `Engine` context add:
 
-{% highlight Apache config files %}
+{% highlight conf %}
 <Realm className="org.apache.catalina.realm.MemoryRealm" />
 {% endhighlight %}
 

@@ -11,7 +11,7 @@ A couple of days ago, I went through the steps of enlarging my AWS instance volu
 
 The following shell output details the steps required to expand the Linux file system after increasing the instance volume size.
 
-{% highlight Bash shell scripts %}
+{% highlight bash %}
 
 [ec2-user@service ~]$ df -h # check the filesystem
 Filesystem            Size  Used Avail Use% Mounted on

@@ -7,7 +7,7 @@ tags:
 modified: 2014-04-11
 ---
 
-{% highlight Bash shell scripts %}
+{% highlight bash %}
 java -classpath /u01/apps/oracle/middleware/wlserver_10.3/server/lib/weblogic.jar weblogic.Deployer \
 	 -adminurl t3://localhost:6001 \
 	 -username weblogic \

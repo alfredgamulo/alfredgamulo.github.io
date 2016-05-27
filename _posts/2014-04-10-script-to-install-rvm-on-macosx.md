@@ -7,7 +7,7 @@ tags:
 modified: 2014-04-10
 ---
 
-{% highlight Bash shell scripts %}
+{% highlight bash %}
 #!/bin/bash -l
 current_version=`ruby -v | awk '{print $2}'`
 if [ $current_version != "1.9.2" ]; then

@@ -44,11 +44,11 @@ end
 
 If you don’t use chef and just want the terminal commands here you go, you lazy bum
 
-{% highlight Bash shell scripts %}
-cd /tmp
-curl -k -O #{web/adddress/to/jdk}
-hdiutil attach -noverify -nobrowse -mountpoint /tmp/jdk #{path/to/downloaded/file}
-sudo installer -verbose -pkg jdk/JDK\ 7\ Update\ 40.pkg -target /
-hdiutil detach /tmp/jdk
-ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/ /Library/Java/Home
+{% highlight bash %}
+$ cd /tmp
+$ curl -k -O #{web/adddress/to/jdk}
+$ hdiutil attach -noverify -nobrowse -mountpoint /tmp/jdk #{path/to/downloaded/file}
+$ sudo installer -verbose -pkg jdk/JDK\ 7\ Update\ 40.pkg -target /
+$ hdiutil detach /tmp/jdk
+$ ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/ /Library/Java/Home
 {% endhighlight %}

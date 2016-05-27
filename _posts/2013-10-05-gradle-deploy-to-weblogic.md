@@ -47,13 +47,13 @@ task deployToWeblogic(dependsOn:'war') << {
 }
 {% endhighlight %}
 
-{% highlight Bash shell scripts %}
-MW_HOME=/u01/apps/oracle/middleware
-GRADLE_OPTS="-Xmx2048m -XX:MaxPermSize=512m -XX:+CMSClassUnloadingEnabled"
+{% highlight bash %}
+$ MW_HOME=/u01/apps/oracle/middleware
+$ GRADLE_OPTS="-Xmx2048m -XX:MaxPermSize=512m -XX:+CMSClassUnloadingEnabled"
 {% endhighlight %}
 
-{% highlight Bash shell scripts %}
-./gradlew deployToWeblogic -Durl=t3://productionserver:8080 -Duser=mchammer -Dpassword=canttouchthis --stacktrace
+{% highlight bash %}
+$ ./gradlew deployToWeblogic -Durl=t3://productionserver:8080 -Duser=mchammer -Dpassword=canttouchthis --stacktrace
 {% endhighlight %}
 
 

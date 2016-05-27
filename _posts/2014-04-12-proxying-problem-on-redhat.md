@@ -11,6 +11,6 @@ I had a problem proxying on Redhat.
 
 SELinux was being a bitch:
 
-{% highlight Bash shell scripts %}
-/usr/sbin/setsebool httpd_can_network_connect 1
+{% highlight bash %}
+$ /usr/sbin/setsebool httpd_can_network_connect 1
 {% endhighlight %}
