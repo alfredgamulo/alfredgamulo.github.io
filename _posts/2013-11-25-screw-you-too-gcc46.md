@@ -2,7 +2,8 @@
 layout: post
 title: "Screw you too, gcc46"
 description: "gcc46 didn't work so gcc42"
-tags: [code]
+tags: 
+  - code
 modified: 2013-11-25
 ---
 

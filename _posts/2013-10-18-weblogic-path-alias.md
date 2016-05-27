@@ -2,7 +2,8 @@
 layout: post
 title: "Weblogic path alias"
 description: "Use an apache proxy config to alias a weblogic path"
-tags: [code]
+tags: 
+  - code
 modified: 2013-10-18
 ---
 

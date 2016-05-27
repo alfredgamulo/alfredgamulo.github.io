@@ -2,7 +2,8 @@
 layout: post
 title: "Git rebase sucks"
 description: "Workaround if rebasing is causing problems"
-tags: [code]
+tags: 
+  - code
 modified: 2014-08-14
 ---
 

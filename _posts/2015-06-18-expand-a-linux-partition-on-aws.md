@@ -2,7 +2,8 @@
 layout: post
 title: "Expanding an AWS Linux Partition"
 description: "Simple copy paste of steps to increase the AWS linux partition after enlarging the volume."
-tags: [code]
+tags: 
+  - code
 modified: 2015-06-18
 ---
 

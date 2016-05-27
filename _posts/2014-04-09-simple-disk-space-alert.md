@@ -2,7 +2,8 @@
 layout: post
 title: "Simple disk space alert"
 description: "Get an alert if disk space is low"
-tags: [code]
+tags: 
+  - code
 modified: 2014-04-09
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Headless install of JDK on MacOSX"
 description: "Chef script to install JDK"
-tags: [code]
+tags: 
+  - code
 modified: 2013-10-09
 ---
 

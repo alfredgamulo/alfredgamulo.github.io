@@ -2,7 +2,8 @@
 layout: post
 title: "Bash test operators"
 description: "Example Bash operators"
-tags: [code]
+tags: 
+  - code
 modified: 2013-10-09
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Apache reverse proxy multiple domains on a single server"
 description: "Example Apache config for multiple reverse proxy"
-tags: [code]
+tags: 
+  - code
 modified: 2013-10-07
 ---
 

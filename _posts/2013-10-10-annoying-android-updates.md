@@ -2,7 +2,8 @@
 layout: post
 title: "Annoying Android updates"
 description: "Modify Android phone to ignore OTA updates"
-tags: [code]
+tags: 
+  - code
 modified: 2013-10-10
 ---
 

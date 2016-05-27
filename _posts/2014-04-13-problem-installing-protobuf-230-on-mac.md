@@ -2,7 +2,8 @@
 layout: post
 title: "Problem installing Protobuf 2.3.0 on Mac"
 description: "Edit protobuf script to install 2.3.0 on Mac"
-tags: [code]
+tags: 
+  - code
 modified: 2014-04-13
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Bash deploy to Weblogic"
 description: "Bash deploy to Weblogic"
-tags: [code]
+tags: 
+  - code
 modified: 2014-04-11
 ---
 

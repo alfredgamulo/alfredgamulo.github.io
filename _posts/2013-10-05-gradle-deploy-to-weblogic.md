@@ -2,7 +2,8 @@
 layout: post
 title: "Gradle deploy to weblogic"
 description: "Example Gradle deployment to Weblogic"
-tags: [code]
+tags: 
+  - code
 modified: 2013-10-05
 ---
 

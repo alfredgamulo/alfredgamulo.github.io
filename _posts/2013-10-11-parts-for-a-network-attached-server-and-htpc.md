@@ -2,7 +2,8 @@
 layout: post
 title: "Parts for a network-attached server and htpc"
 description: "How to kill everything"
-tags: [hardware]
+tags: 
+  - hardware
 modified: 2013-10-11
 ---
 

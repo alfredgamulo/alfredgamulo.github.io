@@ -2,7 +2,8 @@
 layout: post
 title: "Proxying problem on Redhat"
 description: "Configure SELinux to proxy"
-tags: [code]
+tags: 
+  - code
 modified: 2014-04-12
 ---
 

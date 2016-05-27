@@ -2,7 +2,8 @@
 layout: post
 title: "Inspect 2-way authentication with Tcpdump and Wireshark"
 description: "Use Wireshark to decrypt and inspect 2-way authentication tcp stream"
-tags: [code]
+tags: 
+  - code
 modified: 2016-05-26
 ---
 

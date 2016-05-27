@@ -2,7 +2,8 @@
 layout: post
 title: "Getting Tomcat manager working for a multi-instance Tomcat on localhost"
 description: "Configure a multi-instance Tomcat"
-tags: [code]
+tags: 
+  - code
 modified: 2014-11-12
 ---
 

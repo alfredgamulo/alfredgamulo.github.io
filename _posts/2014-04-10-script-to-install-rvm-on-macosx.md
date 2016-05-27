@@ -2,7 +2,8 @@
 layout: post
 title: "Script to install rvm on MacOSX"
 description: "Script to install rvm"
-tags: [code]
+tags: 
+  - code
 modified: 2014-04-10
 ---
 

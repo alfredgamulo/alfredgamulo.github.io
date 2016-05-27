@@ -2,7 +2,8 @@
 layout: post
 title: "Urge to kill rising"
 description: "How to kill everything"
-tags: [code]
+tags: 
+  - code
 modified: 2013-10-08
 ---
 
