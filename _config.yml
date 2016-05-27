@@ -32,8 +32,10 @@ google_verify:      UA-61491933-1
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:     America/New_York
 future:       true
-highlighter:  rouge
 markdown:     kramdown
+kramdown:
+  input: GFM
+highlighter:  rouge
 
 # Gems
 gems: [jekyll-paginate, jekyll-gist]

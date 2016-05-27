@@ -9,6 +9,7 @@ modified: 2016-05-26
 At work, I run an Nginx server that is configured for 2-way authentication. 
 The following are notes that I took to show how to use Wireshark to inspect the tcp stream of encrypted traffic.
 
+<br/>
 
 Convert certificates to .p12
 ---
@@ -32,6 +33,7 @@ $ openssl pkcs12 -export -out server.p12 \
 > -certfile server-cacert.pem 
 {% endhighlight %}
 
+<br/>
 
 Form the tcpdump command
 ---
@@ -54,6 +56,7 @@ $ sudo tcpdump -i any -s0 -w output.pcap \
 > '(host 10.201.100.100 or 10.201.100.101) and port 443'
 {% endhighlight %}
 
+<br/>
 
 Sending the request
 ---
@@ -84,11 +87,13 @@ ssl_ciphers RSA;
 
 After setting the Nginx server to only accept RSA encryption, I could send requests from JMeter with no issue or further configuration.
 
+<br/>
 
 Inspect with Wireshark
 ---
 Finally, once the pcap file has been created which captures the traffic sent from curl or JMeter, open it in Wireshark.
 Open the Wireshark preferences and select SSL from the protocol list. Select "Edit..." for the RSA Key List and add both the client certificate and the server certificate that we generated earlier in this tutorial. Afterward, you should now be able to see the unencrypted traffic. If you right-click and select "Follow > SSL Stream", then you should see the requests made in clear text including header values and body data.
 
+<br/>
 
 [^1]: [https://curl.haxx.se/mail/archive-2013-10/0036.html](https://curl.haxx.se/mail/archive-2013-10/0036.html)
