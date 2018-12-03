@@ -2,10 +2,6 @@
 layout: page
 title: Beer Tools
 description: "Handy homebrew beer recipe calculators for brewing"
-image:
-  feature: abstract-11.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 share: true
 ---
 {::options parse_block_html="true" /}

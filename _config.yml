@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            Blag
 tagline:          The stormtrooper that never misses
 description:      "The stormtrooper that never misses"
-url:              https://github.com/alfredgamulo/alfredgamulo.github.io
+url:              http://alfredgamulo.com
 baseurl:          "/"
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
