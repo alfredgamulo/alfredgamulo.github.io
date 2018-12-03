@@ -13,7 +13,8 @@ baseurl:          ""
 
 author:
   name:           Alfred Gamulo
-  url:            https://twitter.com/alfredgamulo
+  twitter:        https://twitter.com/alfredgamulo
+  github:         https://github.com/alfredgamulo
 
 paginate:         5
 # paginate_path:    '/page:num'
