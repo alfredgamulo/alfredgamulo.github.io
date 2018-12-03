@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Blag
 tagline:          The stormtrooper that never misses
-description:      "The stormtrooper that never misses"
+description:      "Moonshots from the stormtrooper that never misses"
 url:              http://alfredgamulo.com
 baseurl:          ""
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
