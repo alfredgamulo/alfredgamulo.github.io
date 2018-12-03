@@ -9,3 +9,4 @@ link: /beer-tools
 ---
 
 I created a table for reference and calculating typical homebrew mashing.
+Find it on the side bar. (pun intended)

@@ -1,52 +1,25 @@
-title:            My Blag
-description:      herping the derps with style
-disqus_shortname: alfredgamulo
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-url:              http://alfredgamulo.com
-# url:  http://127.0.0.1:4000/
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# Owner/author information
-owner:
+# Setup
+title:            Blag
+tagline:          The stormtrooper that never misses
+description:      "The stormtrooper that never misses"
+url:              https://github.com/alfredgamulo/alfredgamulo.github.io
+baseurl:          /
+                  # the optional subpath of your site, e.g. "/my-jekyll-site/"
+                  # This will apply to all pages in your Jekyll site.
+
+author:
   name:           Alfred Gamulo
-  avatar:         headshot.png
-  bio:            "I like beer and bbq. Occasionally, I'll write some code."
-  email:          alfred.gamulo@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  #twitter:          
-  #facebook:       
-  #github:         
-  #stackexchange:  
-  #linkedin:       
-  #instagram:      
-  #flickr:         
-  #tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  #google_plus:    +yourid
+  url:            https://twitter.com/alfredgamulo
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-61491933-1
-google_verify:      UA-61491933-1
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:         
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:     America/New_York
-future:       true
-markdown:     kramdown
-kramdown:
-  input:      GFM
-highlighter:  rouge
-
-# Gems
-gems: 
+plugins:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
-
-whitelist:
-  - jekyll-paginate
-
-# Amount of posts to show on home page
-paginate: 5
-#paginate_path: "page:num"
-
-excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
