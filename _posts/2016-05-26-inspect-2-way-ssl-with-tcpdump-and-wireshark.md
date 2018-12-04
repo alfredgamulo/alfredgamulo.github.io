@@ -95,6 +95,5 @@ Inspect with Wireshark
 Finally, once the pcap file has been created which captures the traffic sent from curl or JMeter, open it in Wireshark.
 Open the Wireshark preferences and select SSL from the protocol list. Select "Edit..." for the RSA Key List and add both the client certificate and the server certificate that we generated earlier in this tutorial. Afterward, you should now be able to see the unencrypted traffic. If you right-click and select "Follow > SSL Stream", then you should see the requests made in clear text including header values and body data.
 
-<br/>
 
 [^1]: [https://curl.haxx.se/mail/archive-2013-10/0036.html](https://curl.haxx.se/mail/archive-2013-10/0036.html)

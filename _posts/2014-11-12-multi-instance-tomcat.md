@@ -24,8 +24,6 @@ According to the Tomcat resource[^3]:
 With that in mind, I still don’t know why it was unnecessary for the single instance Tomcat setup I had earlier…
 
 
-Sources:
-
 [^1]: [https://tomcat.apache.org/tomcat-7.0-doc/RUNNING.txt](https://tomcat.apache.org/tomcat-7.0-doc/RUNNING.txt)
 [^2]: [https://geekflare.com/tomcat-login-problem/](https://geekflare.com/tomcat-login-problem/)
 [^3]: [https://tomcat.apache.org/tomcat-7.0-doc/funcspecs/fs-memory-realm.html](https://tomcat.apache.org/tomcat-7.0-doc/funcspecs/fs-memory-realm.html)
