@@ -64,4 +64,4 @@ print(int(g_id)*int(g_minute))
 {% endhighlight %}
 
 
-[^1]: [https://adventofcode.com/2018](https://adventofcode.com/2018)
+[^1]: [https://adventofcode.com/2018/day/4](https://adventofcode.com/2018/day/4)

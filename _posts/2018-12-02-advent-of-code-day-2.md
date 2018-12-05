@@ -34,4 +34,4 @@ for i in range(len(lines)):
 As I had labeled in the comment, sorting the lines didn't appear to cause a noticeable difference in performance for the input size. I haven't looked at the effects on larger or smaller inputs, but from what I gathered from a friend that running similar code in Clojure, sorting did have a magnitude of performance increase.
 
 
-[^1]: [https://adventofcode.com/2018](https://adventofcode.com/2018)
+[^1]: [https://adventofcode.com/2018/day/2](https://adventofcode.com/2018/day/2)
