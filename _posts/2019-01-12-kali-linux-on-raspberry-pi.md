@@ -85,6 +85,23 @@ Afterwards, when you reboot you should see the console show up on the display. I
 
 I'm still unable to figure out the buttons on a Kali image. If anyone out there has any input, please let me know :)
 
+# 4. Get Sound
+Get sound to work
+In `/boot/config.txt` uncomment and edit the line:
+```bash
+dtparam=audio=on
+```
+Install and enable dependencies:
+```bash
+apt-get install alsa-utils
+systemctl --user enable pulseaudio && systemctl --user start pulseaudio
+reboot
+systemctl --user status pulseaudio
+```
+Test the tone:
+```bash 
+play -n -c1 synth 10 sine 1000
+```
 
 
 <br>
