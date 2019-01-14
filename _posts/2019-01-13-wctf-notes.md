@@ -79,4 +79,5 @@ macchanger -m XX:XX:XX:XX:XX:XX
 
 <br>
 Sources:
+
 [^1]: [https://scribles.net/changing-a-bluetooth-device-address-on-raspberry-pi/](https://scribles.net/changing-a-bluetooth-device-address-on-raspberry-pi/)
