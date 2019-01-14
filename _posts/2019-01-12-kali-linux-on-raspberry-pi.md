@@ -85,6 +85,13 @@ Afterwards, when you reboot you should see the console show up on the display. I
 
 I'm still unable to figure out the buttons on a Kali image. If anyone out there has any input, please let me know :)
 
+To edit wifi, there are two ways:
+```bash
+wpa_supplicant -B -i wlan0 -c <(wpa_passphrase "MYSSID" 12345678) && dhclient wlan0
+# or 
+nmcli d wifi connect MYSSID password 12345678 iface wlan0
+```
+
 # 4. Get Sound
 Get sound to work
 In `/boot/config.txt` uncomment and edit the line:
