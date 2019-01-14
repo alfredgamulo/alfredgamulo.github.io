@@ -8,7 +8,7 @@ modified: 2019-01-12
 
 Just some notes on my Kali build with Raspberry Pi...
 
-# 0. Materials:
+# 0. Materials
 * [Raspberry Pi 3 B+](https://amzn.to/2sjZMse)
 * [Adafruit PiTFT 2.2" HAT Part #2315](https://amzn.to/2sqKKRy)
 * [MicroSD Card w/ USB](https://amzn.to/2CkUnWr)
@@ -51,6 +51,11 @@ Next edit `/etc/pam.d/lightdm-autologin` and comment out:
 # auth required pam_succeed_if.so user != root quiet_success
 ```
 After this step, you can reboot whenever and have ssh access with your root user.
+
+Optionally, you can change the `hostname` so that people don't know this is a kali box, or to make it easier to find yours.
+```bash
+vim /etc/hostname
+```
 
 # 3. Prepare for a console-only experience
 Set Kali to boot into console mode:
