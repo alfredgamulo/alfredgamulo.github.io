@@ -7,7 +7,7 @@ tags:
 modified: 2013-10-09
 ---
 
-Consider yourself a bash pro? I bet you don’t even know the third thing about bash scripting. That’s right, its about test operators and you’re about to get schooled. Here’s my cheat sheet. Feel free to print it out and put it on your cube. Beware, your friends will think you’re a total noob.
+A cheat sheet for bash test operators:
 
 | Math Operators | Meaning |
 |:---------------|:--------|

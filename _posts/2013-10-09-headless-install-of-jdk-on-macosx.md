@@ -7,7 +7,9 @@ tags:
 modified: 2013-10-09
 ---
 
-Sometimes you have to install things on a mac using only the terminal. “But why,” you might ask, “the user interface is so clean and –” SHUTUP. I didn’t have a choice, I work in a headless environment and the only money we have went towards mac minis. Since I’m such a nice guy, here’s the snippet of my chef script where I install the jdk.
+Chef and terminal examples for headlessly installing JDK.
+
+Chef:
 
 {% highlight ruby %}
 case node["platform_family"]
@@ -42,7 +44,7 @@ when "mac_os_x"
 end
 {% endhighlight %}
 
-If you don’t use chef and just want the terminal commands here you go, you lazy bum
+Terminal:
 
 {% highlight bash %}
 $ cd /tmp

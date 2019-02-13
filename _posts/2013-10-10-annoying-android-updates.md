@@ -22,14 +22,14 @@ Step 1: Mount the /system folder as read/write.
 $ mount -o remount,rw /system
 {% endhighlight %}
 
-Step 2: Create a shitty apps folder.
+Step 2: Create an unwanted apps folder.
 
 {% highlight bash %}
 $ cd /system
 $ mkdir app_hell
 {% endhighlight %}
 
-Step 3: Move the shitty app (In this case, we’re moving the firmware upgrade app).
+Step 3: Move the unwanted app (In this case, we’re moving the firmware upgrade app).
 
 {% highlight bash %}
 $ mv app/FWUpgrade.apk app_hell/. 
