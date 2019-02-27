@@ -11,4 +11,4 @@ Hey, I'm Alfred[^1] and my opinions are my own. My job[^2] is to write software[
 [^1]: [Twitter](https://twitter.com/alfredgamulo)
 [^2]: [LinkedIn](https://www.linkedin.com/in/alfredgamulo/)
 [^3]: [GitHub](https://github.com/alfredgamulo)
-[^4]: [PGP](http://pgp.mit.edu/pks/lookup?search=gamulo&op=index)
+[^4]: [PGP](https://keybase.io/alfred)
